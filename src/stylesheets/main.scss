@@ -1,0 +1,55 @@
+.page-home {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.control {
+    position: relative;
+	width: 100%;
+}
+
+.results {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-height: 450px;
+    overflow: auto;    
+}
+
+.result-item {
+    margin: 0;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+.selected {
+    color: #fff;
+    background-color:  #286090;
+}
+.result-item:hover {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.results-label {
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+    color: gray;
+    background-color: #eee;
+    margin: 0;
+}
+
+.highlight {
+    font-weight: bold;
+}
